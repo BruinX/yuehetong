@@ -1,0 +1,227 @@
+*{margin: 0px; padding: 0px;}
+li{list-style: none;}
+img{vertical-align: bottom;}
+a{text-decoration: none !important;}
+body,html{
+	background-color: #f5f5f5;
+}
+.navbar, .jumbotron{
+	 margin-bottom: 0px;
+}
+
+/* 导航条 */
+.nav-top{
+	border-bottom:1px solid #777 ;
+	background-color: #fff;
+}
+
+/* logo图片 */
+.navbar-header {
+	padding-left: 80px;
+}
+.navbar-header a{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 20px;
+	width: 195px;
+	height: 80px;
+	background: url(../img/yue-sprit001.png) no-repeat;
+}
+@media screen and (max-width: 1200px){
+	.navbar-header a{
+		width: 100px;
+		height: 37px;
+		background: url(../img/yue-sprit001.png) no-repeat -127px -85px;
+	}
+}
+/* logo文字 */
+.navbar-header h2{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 20px 0 0 30px;
+	font-size: 26px;
+	color: #35c1ec;
+}
+@media screen and (max-width: 1200px) {
+	.navbar-header h2{
+		padding: 20px 0 0 10px;
+		font-size: 18px;
+	}
+}
+/* 切换按钮 */
+.navbar-toggle{
+	background-color: #35c1ec;
+	margin-top: 20px;
+}
+.navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+
+/* 导航菜单 */
+.navbar-menu{
+	padding-top: 50px;
+}
+@media screen and (max-width: 768px){
+	.navbar-menu{
+		padding-top: 0px;
+	}
+}
+.menu-list li{
+	padding: 0;
+	text-align: center;
+}
+.menu-list li>a{
+	font-size: 16px;
+}
+/* 登录  */
+.nav-login{
+	margin: 10px 30px;
+}
+.nav-login:before{
+	content: "";
+	width: 2px;
+	height: 100%;
+	background-color: #35c1ec;
+	position: absolute;
+	left: -20px;
+}
+.nav-login .btn-success{
+	padding: 3px;
+	border-radius: 2px;
+}
+
+/* 巨幕搜索  */
+.jumbotron{
+	height: 150px;
+	background: url(../img/s_bg.jpg);
+}
+/* 搜素 */
+.input-group input{
+	height: 53px;
+}
+.search-btn{
+	height: 53px;
+	width: 112px;
+	background: #fdd26d url(../img/yue-sprit001.png) 50% -125px no-repeat;
+}
+
+/* 标题 */
+.base-title{
+	margin: 32px 0;
+	text-align: center;
+}
+
+/* page1 */
+.page1{
+	margin-bottom: 30px;
+}
+.page1-content h3{
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 0px;
+	font-size: 1.7rem;
+	color: #fff;
+}
+.page1-content :nth-child(1) h3{background-color: #e8b875;}
+.page1-content :nth-child(2) h3{background-color: #baa1e2;}
+.page1-content :nth-child(3) h3{background-color: #6581c3;}
+.page1-content :nth-child(4) h3{background-color: #fad716;}
+.page1-content :nth-child(5) h3{background-color: #8ea8f8;}
+.page1-content :nth-child(6) h3{background-color: #fcbfdb;}
+.page1-content :nth-child(7) h3{background-color: #f97b39;}
+.page1-content :nth-child(8) h3{background-color: #97cb26;}
+.page1-list,.more-btn{
+	background-color: #fff;
+}
+.page1-list li{
+	height: 4rem;
+	line-height: 4rem;
+	border-bottom: 1px dashed #eaeaea;
+}
+.page1-list li>a{
+	color: #000;
+	font-size: 1.6rem;
+	padding: 1.025rem;
+}
+.more-btn{
+	display: block;
+	width: 100%;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	text-align: center;
+	font-size: 2rem;
+}
+.more-btn:hover{
+	background-color: #eaeaea;
+}
+
+/* page2 */
+.page2{
+	background-color: #fff;
+	padding-bottom: 50px;
+}
+
+.page2-content{
+	padding: 0.3px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+.page2-content>a{
+	display: block;
+	color: #fff;
+	padding: 20px;
+}
+.p2cnt1{background-color: #f97b39;}
+.p2cnt2{background-color: #97cb26;}
+.p2cnt3{background-color: #fad716;}
+
+
+.page2-content>a span:nth-child(1){
+	padding: 20px;
+	font-size: 3.875rem;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+}
+.page2-content>a span:nth-child(2){
+	display: block;
+	padding: 10px 0;
+}
+.page2-content p span{
+	font-size: 18px;
+}
+.page2-content .price-Y span{
+	text-decoration: line-through;
+}
+.page2-content p:last-child span{
+	color: red;
+}
+
+/* page2frool */
+.page2frool-bg{
+	background-color: #ededed;
+}
+.page2frool li{
+	height: 78px;
+	border-right: 1px solid #ddd;
+	margin: 30px auto;
+}
+.page2frool li span{
+	display: block;
+	height: 100%;
+	background: url(../img/yue-sprit0052.png) no-repeat;
+	margin: 0 auto;
+}
+.page2frool li:nth-child(1) span{width:125px; background-position: -130px 0;}
+.page2frool li:nth-child(2) span{width:125px; background-position: 0 0 ;}
+.page2frool li:nth-child(3) span{width:100px; background-position: -3px -85px;}
+.page2frool li:nth-child(4) span{width:113px; background-position: 6px -168px;}
+.page2frool li:nth-child(5) span{width:120px; background-position: -103px -168px;}
+.page2frool li:nth-child(6) span{width:100px; background-position: -115px -83px;}
+
+/* page2frool-2 */
+.media-left img{
+	width: 285px;
+	height: 206px;
+	/* position: absolute; */
+}
