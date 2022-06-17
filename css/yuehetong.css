@@ -220,8 +220,63 @@ body,html{
 .page2frool li:nth-child(6) span{width:100px; background-position: -115px -83px;}
 
 /* page2frool-2 */
-.media-left img{
-	width: 285px;
+.media-left{
+}
+
+.page2frool-2-img div{
+}
+
+.page2frool-2{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.item{
+	width: 100%;
+}
+.item img{
 	height: 206px;
-	/* position: absolute; */
+	max-width: 100%;
+}
+.new h3{
+	text-align: center;
+}
+
+/* select */
+.select{
+	padding: 40px;
+}
+.select h3{
+	padding: 40px;
+}
+.select h3>b{
+	color: #35c1ec;
+}
+.list-icon{
+	overflow: hidden;
+	border: 1px solid #bababa;
+	box-sizing: border-box;
+	background-color: #fff;
+	margin-left: -1px;
+	margin-top: -1px;
+	cursor: pointer;
+}
+.list-icon img{
+	width: 100%;
+	height: auto;
+}
+
+/* cooperate */
+.cooperate{
+	background-color: #fff;
+	padding-bottom: 40px;
+}
+.cooperate h3{
+	padding: 40px;
+}
+.list-icon2{
+	overflow:hidden;
+}
+.list-icon2 img{
+	width: 100%;
 }
